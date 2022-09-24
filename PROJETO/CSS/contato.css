@@ -1,0 +1,102 @@
+
+header{
+    display: flex;
+    top:0;
+    right: 0;
+    width: 100%;
+    background: rgb(157, 40, 138);
+    justify-content: flex-end;
+    border-radius: 10px;} 
+    
+
+    .menu{
+        display: flex;
+        padding: 10px 20px;}
+
+    .menu li{
+        padding: 10px 20px;
+        list-style: none;}
+
+    
+    h1{
+    color: rgb(5, 4, 5);
+    margin: 30px; 
+    text-align: center; 
+    height: 10px;}
+
+
+img {
+    margin: 50px; 
+    border-radius: 100px; 
+    width: 200px; 
+    text-align: center
+ } 
+
+ p {margin:  50px;text-align: center }  
+ 
+ body {
+    background-image:none
+    }
+
+    .contato{
+        background-color: #1b1a1a;
+        padding: 70px 0;
+        text-align: center;
+        width: 40%;
+        margin: 100px auto;
+        border-radius: 10px;
+    }
+    
+    .contato h2 {
+        font-size: 2rem;
+        color: var(--bg-color);
+        margin-bottom: 30px;
+    }
+    
+    .tentando {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .input-contato {
+        margin-bottom: 20px;
+        margin-top: 10px;
+        
+        width: 35%;
+        height: 30px;   
+        border: none;
+        border-radius: 0.5rem;
+        outline-color: var(--main-color); 
+        padding: 10px;
+    }
+    
+    .text {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        resize: none;
+        width: 70%;
+        border-radius: 0.5rem;
+        padding: 10px;
+        outline-color: var(--main-color);
+    }
+    
+    .btn-input {
+        display: inline-block;
+        padding: 20px 40px;
+        background: var(--main-color);
+        color: #1b1a1a;
+        border-radius: 0.5rem;
+        border: none;
+    }
+    
+    .btn-input:hover {
+        transform: scale(1.2) translateY(10px);
+        transition: .4s;
+    }
+    
+    label {
+        color: var(--bg-color);
+    }
